@@ -16,7 +16,8 @@ int main(void)
 
 	{
 		putchar(alphabet);
-		alphabet = toupper(alphabet);
+		int alphabet = toupper(alphabet);
+
 		putchar(alphabet);
 	}
 
