@@ -14,12 +14,12 @@ int main(void)
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 
-	{
 		putchar(alphabet);
-		int alphabet = toupper(alphabet);
+
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 
 		putchar(alphabet);
-	}
+
 
 	putchar('\n');
 
