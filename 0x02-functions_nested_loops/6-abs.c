@@ -4,11 +4,11 @@
  *@x: Input for integer
  * Return: x (Success)
  */
-int _abs(int r)
+int _abs(int x)
 {
-	if (r < 0)
-		r = (r * -1);
+	if (x < 0)
+		x = (x * -1);
 	else
-		r = r;
-	return (r);
+		x = x;
+	return (x);
 }
